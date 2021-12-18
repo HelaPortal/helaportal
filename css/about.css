@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+.body {
+    margin-left: 230px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: "Lato", Helvetica, Arial;
+}
+
+.body p {
+    font-weight:bolder;
+    border: 1px;
+    border-width: 20px;
+    border-style: hidden;
+}
