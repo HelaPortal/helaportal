@@ -1,12 +1,12 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 
 
 .sideBar {
     height: 100%;
     width: 230px;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
     background-color: rgb(0, 0, 0);
@@ -22,6 +22,8 @@
   display: block;
   font-family: "Lato", Helvetica, Arial;
   font-weight: bold;
+  transition-duration: 350ms;
+  transition-timing-function: ease-in-out;
 }
 
 .sideBar a:hover {
@@ -42,10 +44,12 @@
 
 a {
     color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 a:hover {
     color: rgb(121, 121, 121);
+    text-decoration: none;
 }
 
 .body {
@@ -58,10 +62,36 @@ a:hover {
 .body h1 {
     margin-top: 275px;
     text-align: center;
-    font-family: 'Bakbak One', cursive;
+}
+
+.body h3 {
+    text-align: center;
+}
+
+.body h2 {
+    text-align: center;
 }
 
 .body p {
     text-align: center;
     font-weight: bolder;
+}
+
+.siteVersion {
+    margin-top: 250px;
+    margin-right: 1050px;
+    font-size: 25px;
+}
+
+
+.faqTitle {
+    text-align: center;
+}
+
+.faqAnswer {
+    font-size: 25px;
+}
+
+.faqQuestion1 {
+    margin-top: 75px;
 }
